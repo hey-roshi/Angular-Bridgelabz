@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'HelloWorld';
+  title = 'Helloworld';
+
+  ngOnInit(): void {
+    this.title = "Hello from BridgeLabz.";
+  }
 }
