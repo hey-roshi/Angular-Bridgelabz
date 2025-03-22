@@ -1,10 +1,12 @@
 <div>
-  <h1>
-    {{title}}
-  </h1>
+  <h1>Hello {{this.userName}} from BridgeLabz</h1>
   <img [src]="imgUrl" (click)="onClick($event)"
   alt="The BridgeLabz logo: a Bridge to Employement through a Lab Works."
   >
+</div>
+
+<div>
+  <input [(ngModel)]="userName" /> <br/><br/>
 </div>
 
 <router-outlet></router-outlet>
